@@ -1,0 +1,14 @@
+.datepicker-wrapper {
+  position: relative;
+  display: flex;
+}
+
+.datepicker-wrapper .calendar-view-wrapper {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+
+.datepicker-wrapper .calendar-view-wrapper.hide {
+  display: none;
+}
